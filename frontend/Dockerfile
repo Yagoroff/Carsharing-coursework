@@ -3,7 +3,7 @@ FROM node:19-alpine
 # Build step
 # 1. copy package.json and package-lock.json to /app dir
 RUN mkdir /frontend
-COPY package*.json /frontend
+COPY package*.json /frontend/
 # 2. Change working directory to newly created app dir
 WORKDIR /frontend
 # 3 . Install dependencies
