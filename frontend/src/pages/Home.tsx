@@ -36,7 +36,7 @@ const HomePage = () => {
             <Link to={`/auto`}>
               <CardPage variant="Danger" header="Взять автомобиль в аренду">
                 <IoCarSport size={80} />
-                <div>Быстро и дешево</div>
+                <div>Посмотреть</div>
               </CardPage>
             </Link>
           </Col>
@@ -44,7 +44,7 @@ const HomePage = () => {
             <Link to={`/current-auto`}>
               <CardPage variant="Info" header="Активные сеансы в данный момент">
                 <BsPlayFill size={80} />
-                <div>Быстро и дешево</div>
+                <div>Посмотреть</div>
               </CardPage>
             </Link>
           </Col>
@@ -52,7 +52,7 @@ const HomePage = () => {
             <Link to={`/ended-orders`}>
               <CardPage variant="Success" header="Законченные сеансы">
                 <GoListUnordered size={80} />
-                <div>Быстро и дешево</div>
+                <div>Посмотреть</div>
               </CardPage>
             </Link>
           </Col>
